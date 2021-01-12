@@ -148,8 +148,9 @@ def find_cheating_players():
                     print(text_error)
                 else:
                     print(text)
+            print(text)
         except:
-            pass
+            print("Not enough info about player.")
         index += 1
 
 
